@@ -4,7 +4,8 @@ My Kali workspace.
 - Kali, or debian derived.
 
 ## PREVIEW
-<img src='assets/wallpaper.png'>
+<img src='assets/preview_01.png'>
+<img src='assets/preview_02.png'>
 
 ## STEPS
 
