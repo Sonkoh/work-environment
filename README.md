@@ -70,8 +70,15 @@ fc-cache -v
 sudo apt install feh
 
 cd ~/Imágenes
-wget https://raw.githubusercontent.com/Sonkoh/workspace/wallpaper.png
+wget https://raw.githubusercontent.com/Sonkoh/workspace/assets/wallpaper.png
 
+mkdir ~/.config/polybar
+cd ~/Descargas
+git clone https://github.com/adi1090x/polybar-themes.git
+bash polybar-themes/setup.sh
+```
 
+#### SELECT 1
 
+```sh
 ```
