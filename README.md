@@ -1,5 +1,5 @@
 # work-environment
-My Kali work environment.
+My Kali workspace.
 ### STEPS
 
 ```sh
