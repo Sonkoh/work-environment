@@ -89,5 +89,10 @@ cp workspace/picom.conf ~/.config/picom/picom.conf
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 zsh
+sudo su 
+cd ~
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+cd ~
 ```
 ### 'Oh My Posh', 'Bat', 'LSD'
