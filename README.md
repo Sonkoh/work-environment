@@ -27,4 +27,4 @@ chmod +x ~/.config/bspwm/bspwmrc
 cp examples/sxhkdrc ~/.config/sxhkd/
 ```
 
-# REPLACE '~/.config/sxhkd/sxhkdrx' content with 'github:sxhkd/sxhkdrc' content
+#### REPLACE '~/.config/sxhkd/sxhkdrx' content with 'github:sxhkd/sxhkdrc' content
