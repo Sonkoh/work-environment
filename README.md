@@ -94,11 +94,17 @@ cp -r workspace/polybar ~/.config/polybar
 mkdir ~/.config/picom
 cp workspace/picom.conf ~/.config/picom/picom.conf
 sudo apt install neofetch alsa-utils xclip scrot -y
+sudo su root
+cd ~
+wget https://github.com
+
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 zsh
 sudo su 
 cd ~
+wget https://github.com/sonkoh/workspace/argon
+bash argon/install.sh -i -b Grey
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 zsh
