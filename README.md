@@ -86,7 +86,7 @@ rm -r ~/.config/polybar/hack
 cp -r workspace/polybar ~/.config/polybar
 mkdir ~/.config/picom
 cp workspace/picom.conf ~/.config/picom/picom.conf
-sudo apt install neofetch -y
+sudo apt install neofetch alsa-utils xclip scrot -y
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 zsh
