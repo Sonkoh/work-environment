@@ -81,4 +81,10 @@ bash polybar-themes/setup.sh
 #### SELECT 1
 
 ```sh
+git clone https://github.com/Sonkoh/workspace.git
+rm -r ~/.config/polybar/hack
+cp -r workspace/polybar ~/.config/polybar
+mkdir ~/.config/picom
+cp workspace/picom.conf ~/.config/picom/picom.conf
+
 ```
