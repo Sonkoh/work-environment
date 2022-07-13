@@ -1,6 +1,12 @@
 # work-environment
 My Kali workspace.
-### STEPS
+## REQUIREMENTS
+- Kali, or debian derived.
+
+## PREVIEW
+<img src='assets/wallpaper.png'>
+
+## STEPS
 
 ```sh
 sudo apt update
