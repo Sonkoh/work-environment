@@ -103,7 +103,8 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 zsh
 sudo su 
 cd ~
-wget https://github.com/sonkoh/workspace/argon
+wget https://github.com/sonkoh/workspace/argon.tar.gz
+tar -xzvf argon.tar.gz  
 bash argon/install.sh -i -b Grey
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
