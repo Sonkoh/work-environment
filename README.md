@@ -88,3 +88,4 @@ mkdir ~/.config/picom
 cp workspace/picom.conf ~/.config/picom/picom.conf
 
 ```
+### BEFORE INSTALL 'ZSH', 'POWER LEVEL 10 K', 'Oh My Posh', 'Bat', 'LSD'
